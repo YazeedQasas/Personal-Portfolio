@@ -8,6 +8,7 @@ const {
 } = require("tailwindcss/lib/util/flattenColorPalette");
 
 const config = {
+  
   darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
@@ -201,4 +202,9 @@ function addVariablesForColors({ addBase, theme }: any) {
   });
 }
 
+
+        
+  
+      
+      
 export default config;
