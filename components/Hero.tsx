@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
@@ -6,7 +8,7 @@ import { FaGithub } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36 -mb-60">
         <div>
             <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill ="white"/>
             <Spotlight className="top-10 left-full h-[80vh] w-[50vw]" fill ="purple"/>
@@ -27,21 +29,26 @@ const Hero = () => {
            words="Driving innovation and creating a brighter digital future."
           />
 
-          <p className="text-center text-white md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Let's get in contact!
-          </p>
+         
 
-          <a href="#about">
+          <a href="#about" className="-mb-5">
             <MagicButton
             title="Show my work"
             icon={<FaGithub />}
             position="right"
              />
           </a>
+
+          <p className="text-center text-white md:tracking-widertext-sm md:text-lg lg:text-xl -mb-20 mt-20">
+              Let's get in <span className="text-purple font-bold">contact!</span>
+          </p>
         </div>
       </div>
     </div>
   )
+
+
+
 }
 
 export default Hero
