@@ -93,6 +93,16 @@ const config = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		keyframes: {
+			text:{
+				'0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center',
+          },
+		  '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center',
+          },
+			},
   			'accordion-down': {
   				from: {
   					height: '0'
@@ -176,7 +186,8 @@ const config = {
   			third: 'moveInCircle 40s linear infinite',
   			fourth: 'moveHorizontal 40s ease infinite',
   			fifth: 'moveInCircle 20s ease infinite',
-  			scroll: 'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite'
+  			scroll: 'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite',
+			text: 'text 5s ease infinite',
   		}
   	}
   },

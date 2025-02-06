@@ -19,38 +19,38 @@ export function FloatingDockDemo() {
     {
       title: "LinkedIn",
       icon: (
-        <FaLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <FaLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" onClick={()=> window.open("https://www.linkedin.com/in/yazeedqasas", "_blank")}/>
       ),
-      href: "https://www.linkedin.com/in/yazeedqasas",
+      href: "/",
     },
 
     {
       title: "Instagram",
       icon: (
-        <FaInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <FaInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" onClick={()=> window.open("https://www.instagram.com/yazeed_qasas", "_blank")} />
       ),
-      href: "https://www.instagram.com/yazeed_qasas/",
+      href: "/",
     },
     {
         title: "GitHub",
         icon: (
-          <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" onClick={()=> window.open("https://github.com/YazeedQasas", "_blank")} />
         ),
-        href: "https://github.com/YazeedQasas",
+        href: "/",
       },
     {
       title: "X (Formerly Twitter)",
       icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" onClick={()=> window.open("https://x.com/QasasYazeed", "_blank")} />
       ),
-      href: "https://x.com/QasasYazeed",
+      href: "/",
     },
     {
         title: "Facebook",
         icon: (
-          <FaFacebook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <FaFacebook className="h-full w-full text-neutral-500 dark:text-neutral-300" onClick={()=> window.open("https://www.facebook.com/yazeed.qasas.9", "_blank")} />
         ),
-        href: "https://www.facebook.com/yazeed.qasas.9/",
+        href: "/",
       },
     
   ];

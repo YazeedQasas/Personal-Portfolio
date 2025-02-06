@@ -31,7 +31,7 @@ const Hero = () => {
 
          
 
-          <a href="#about" className="-mb-5">
+          <a onClick={()=> window.open("https://github.com/YazeedQasas", "_blank")} className="-mb-5">
             <MagicButton
             title="Show my work"
             icon={<FaGithub />}
