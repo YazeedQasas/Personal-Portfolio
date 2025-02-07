@@ -35,8 +35,11 @@ export default function Home() {
         <section id="projects">
         <ProjectSection />
         </section>
-        
+
+        <section id="contact">
         <ContactSection />
+        </section>
+        
         <HeroScrollDemo />
         
         

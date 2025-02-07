@@ -24,7 +24,7 @@ export const AboutMe = () => {
         </div>
 
         <button className="bg-violet-800 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all transform hover:scale-105" >
-          <a href="#top" className="_blank"> Let's connect! </a>
+          <a href="#contact" className="_blank"> Let's connect! </a>
         </button>
       </div>
 
