@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
     domains: ['assets.aceternity.com', 'images.unsplash.com', 'i.imgur.com'],
     unoptimized: true,
   },
-  assetPrefix: isProd ? '/portfolio-project' : '',
-  basePath: isProd ? '/portfolio-project' : '',
+  assetPrefix: isProd ? '/portoflio-project' : '',
+  basePath: isProd ? '/portoflio-project' : '',
   output: 'export',
   eslint: {
     ignoreDuringBuilds: true,

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { HoverHeading } from "@/components/ui/hover-heading";
+import { HoverHeading } from "../components/ui/hover-heading";
 import { motion } from "framer-motion";
 
 export const ContactSection = () => {

@@ -93,3 +93,5 @@ export const Card = ({
     </motion.div>
   );
 };
+
+export default ContainerScroll

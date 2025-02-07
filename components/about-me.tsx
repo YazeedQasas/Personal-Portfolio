@@ -1,4 +1,4 @@
-import { GridContainer } from '@/components/ui/grid-container';
+import { GridContainer } from '../components/ui/grid-container';
 import { FaLinkedin } from "react-icons/fa";
 export const AboutMe = () => {
   return (
@@ -31,7 +31,7 @@ export const AboutMe = () => {
       <div className="flex justify-center items-center">
         <div className="relative group overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-shadow w-3/4 max-w-md">
           <img 
-            src="/portfolio-project/profile.png" 
+            src="/profile.png" 
             alt="Profile"
             className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform"
           />

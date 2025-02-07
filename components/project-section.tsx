@@ -1,7 +1,7 @@
 // @/components/project-section.tsx
 "use client";
 
-import { ProjectCard } from "@/components/ui/project-card";
+import { ProjectCard } from "../components/ui/project-card";
 import { motion } from "framer-motion";
 
 const projects = [
