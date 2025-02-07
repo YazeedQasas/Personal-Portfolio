@@ -1,5 +1,4 @@
 import { GridContainer } from '../components/ui/grid-container';
-import { FaLinkedin } from "react-icons/fa";
 export const AboutMe = () => {
   return (
     <GridContainer className="py-12 px-4 md:px-8 lg:px-16">
@@ -24,7 +23,7 @@ export const AboutMe = () => {
         </div>
 
         <button className="bg-violet-800 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all transform hover:scale-105" >
-          <a href="#contact" className="_blank"> Let's connect! </a>
+          <a href="#contact" className="_blank"> Let&apos;s connect! </a>
         </button>
       </div>
 

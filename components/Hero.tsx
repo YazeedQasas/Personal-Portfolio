@@ -40,7 +40,7 @@ const Hero = () => {
           </a>
 
           <p className="text-center text-white md:tracking-widertext-sm md:text-lg lg:text-xl -mb-20 mt-20">
-              Let's get in <span className="text-purple font-bold">contact!</span>
+              Let&apos;s get in <span className="text-purple font-bold">contact!</span>
           </p>
         </div>
       </div>

@@ -4,7 +4,6 @@ import { FaHome } from "react-icons/fa";
 import { TimelineDemo } from "@/components/TimelineDemo"
 import { IoInformationCircleSharp } from "react-icons/io5";
 import { FaProjectDiagram } from "react-icons/fa";
-import { TextHoverEffectDemo } from "@/components/TextHoverEffectDemo";
 import { FloatingDockDemo } from "@/components/FloatingDockDemo";
 import { AboutMe } from "@/components/about-me";
 import { ProjectSection } from "@/components/project-section";

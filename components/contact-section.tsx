@@ -8,13 +8,9 @@ export const ContactSection = () => {
   const [isCopied, setIsCopied] = useState(false);
 
   const handleCopyEmail = async () => {
-    try {
       await navigator.clipboard.writeText("yazidqasas@gmail.com");
       setIsCopied(true);
       setTimeout(() => setIsCopied(false), 2000);
-    } catch (err) {
-      console.error("Failed to copy email");
-    }
   };
 
   return (

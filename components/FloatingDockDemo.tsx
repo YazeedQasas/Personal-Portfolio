@@ -11,8 +11,6 @@ import { FaLinkedin,
          FaFacebook, 
  } from "react-icons/fa";
 
-import Image from "next/image";
-import { FaLink } from "react-icons/fa6";
 
 export function FloatingDockDemo() {
   const links = [

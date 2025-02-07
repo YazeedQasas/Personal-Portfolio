@@ -7,11 +7,11 @@ const nextConfig: NextConfig = {
     domains: ['assets.aceternity.com', 'images.unsplash.com', 'i.imgur.com'],
     unoptimized: true,
   },
-  assetPrefix: isProd ? '/portoflio-project' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
   basePath: isProd ? '/portoflio-project' : '',
   output: 'export',
   eslint: {
-    ignoreDuringBuilds: true,
+      
   },
 };
 
