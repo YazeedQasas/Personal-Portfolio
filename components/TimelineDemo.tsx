@@ -8,20 +8,20 @@ export function TimelineDemo() {
       title: '2025',
       content: (
         <div>
-          <p className='text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4'>
+          <p className='text-neutral-200 text-xs md:text-sm font-normal mb-4'>
             I have a few projects lined up this year..
           </p>
           <div className='mb-8'>
-            <div className='flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm'>
+            <div className='flex gap-2 items-center text-neutral-300 text-xs md:text-sm'>
               1️⃣ ABET Accreditation Database System Project
             </div>
-            <div className='flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm'>
+            <div className='flex gap-2 items-center text-neutral-300 text-xs md:text-sm'>
               2️⃣ College-Level Drone System with Controller
             </div>
-            <div className='flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm'>
+            <div className='flex gap-2 items-center text-neutral-300 text-xs md:text-sm'>
               ❓ Open to work on College-Level projects, let&apos;s work together!
             </div>
-            <div className='flex mt-5  text-neutral-700 dark:text-neutral-300 text-lg md:text-lg'>
+            <div className='flex mt-5  text-neutral-300 text-lg md:text-lg'>
               <h1>Here are some technologies I&apos;m <span className='text-purple font-bold'>interested</span> in..</h1>
             </div>
           </div>
@@ -63,11 +63,11 @@ export function TimelineDemo() {
       title: '2024',
       content: (
         <div>
-          <p className='text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8'>
+          <p className='text-neutral-200 text-xs md:text-sm font-normal mb-8'>
           Studied Abroad at Saginaw Valley State University in the U.S.A,
           and did an internship at Orion VLSI Technologies, building skills in RTL Design and the HDL SystemVerilog.
           </p>
-          <p className='text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8'>
+          <p className='text-neutral-200 text-xs md:text-sm font-normal mb-8'>
             Whilst studying at Saginaw Valley State University, I was placed on the &apos;Dean&apos;s list&apos; for excellent academic performance!
           </p>
           <div className='grid grid-cols-2 gap-4'>
@@ -108,7 +108,7 @@ export function TimelineDemo() {
       content: (
         <div>
           
-          <p className='text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8'>
+          <p className='text-neutral-200 text-xs md:text-sm font-normal mb-8'>
             Studied Abroad at the University of Jaen in Spain, and did an internship at Bilsan Technologies for
             front-end web development to build skills in pure Javascript, HTML and CSS.
           </p>

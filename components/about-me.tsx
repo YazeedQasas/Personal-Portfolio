@@ -7,13 +7,13 @@ export const AboutMe = () => {
           About Me
         </h1>
         
-        <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+        <p className="text-gray-300 text-lg leading-relaxed">
           Passionate computer engineering student with experience in Python, AI, React.js, Next.js and Javascript. Currently working on pivoting into Computer Vision using libraries 
           such as OpenCV and YOLO whilst working with electronics.
         </p>
 
         <div className="space-y-4">
-          <p className="text-gray-700 dark:text-gray-200">
+          <p className="text-gray-200">
             🚀 Built AI projects to support image classification
             <br />
             📈 Multiple internships involving Front-End Web Development and RTL Design 
